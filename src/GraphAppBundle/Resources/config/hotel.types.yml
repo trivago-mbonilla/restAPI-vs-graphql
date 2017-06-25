@@ -1,0 +1,16 @@
+# Possible types:
+# Scalars
+# Object
+# Interface
+# Union
+# Enum
+# Input Object
+# Lists
+# Non-Null
+#graphql:
+#    definitions:
+#        mappings:
+#            types:
+#                -
+#                    type: yml # or xml
+#                    dir: "%kernel.root_dir%/.../mapping"
