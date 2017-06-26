@@ -1,4 +1,4 @@
-hotel
+ResAPI vs GraphQL
 =====
 **Description:** Test project to compare ResAPI vs GraphQL
 
@@ -20,7 +20,7 @@ php bin/console server:run
 * Rest API doc: http://127.0.0.1:8000/api/doc
 * GraphQL test: http://127.0.0.1:8000/graphql/explorer
 
-###getHotels
+getHotels
 ```graphql
 query {
  hotels {
@@ -30,7 +30,7 @@ query {
 }
 ```
 
-###getHotel
+getHotel
 ```graphql
 query {
  hotel(id: ID) {
@@ -40,7 +40,7 @@ query {
 }
 ```
 
-###createtHotel
+createtHotel
 ```graphql
 mutation {
   addHotel(name: "my new hotel") {
